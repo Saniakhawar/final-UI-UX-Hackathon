@@ -1,5 +1,5 @@
 'use client'
-import Image from "next/image";
+
 import SponsorsSection from "@/components/ShopSection/SponsorsSection";
 import React, { useState } from 'react';
 import Link from 'next/link';

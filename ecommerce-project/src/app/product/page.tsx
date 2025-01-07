@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Footer from "@/components/Footer";
 import { FaHeart, FaEye, FaShoppingCart } from "react-icons/fa";
 import SponsorsSection from '@/components/ShopSection/SponsorsSection'
 import Header from "@/components/Header";
@@ -244,8 +243,7 @@ const ProductDetails = () => {
           {/* Sponsors Section */}
           <SponsorsSection />
 
-          {/* Footer Section */}
-          <Footer />
+          
         </div>
       </div>
     </div>

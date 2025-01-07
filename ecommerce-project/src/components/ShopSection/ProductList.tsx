@@ -28,17 +28,18 @@ const ProductGrid = () => {
     >
       {/* Grid Container */}
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-8">
-        {products.map((product) => (
-          <div className="flex justify-center">
-            <NewProduct
-              key={product.key}
-              img={product.img}
-              title={product.title}
-              desc={product.desc}
-              price={product.price}
-              originalPrice={product.originalPrice}
-            />
-          </div>
+      {products.map((product) => (
+  <div key={product.key} className="flex justify-center"> 
+    <NewProduct
+      img={product.img}
+      title={product.title}
+      desc={product.desc}
+      price={product.price}
+      originalPrice={product.originalPrice}
+    />
+  </div>
+
+
         ))}
       </div>
     </div>

@@ -163,7 +163,7 @@ const ContactSection = () => {
               height={50}
             />
           </div>
-          <p className="text-lg font-semibold text-gray-600">WE CAN'T WAIT TO MEET YOU</p>
+          <p className="text-lg font-semibold text-gray-600">WE CAN&apos;T WAIT TO MEET YOU</p>
           <h1 className="text-4xl font-bold text-gray-800 mt-4 mb-8">Let’s Talk</h1>
           <button className="px-6 py-3 bg-blue-500 text-white font-bold rounded-md hover:bg-blue-600">
             Try it free now

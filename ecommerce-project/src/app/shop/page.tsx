@@ -1,5 +1,5 @@
 'use client'
-import Link from 'next/link';
+
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar"
 import Carditem from '@/components/ShopSection/Carditem';

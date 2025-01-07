@@ -3,17 +3,9 @@ import Image from "next/image";
 import { FaRegClock } from "react-icons/fa"; // Clock icon
 import { FaChartLine } from "react-icons/fa"; // Graph icon for comments
 
-
 const FeaturedPostsSlide: React.FC = () => {
   return (
-    <section
-      className="text-center py-12 mx-auto"
-      style={{
-        width: "100%",  // Adjust width to 100% for responsiveness
-        height: "auto", // Adjust height to auto for better responsiveness
-        gap: "30px",
-      }}
-    >
+    <section className="text-center py-12 mx-auto" style={{ width: "100%", height: "auto", gap: "30px" }}>
       <h1 className="text-sky-500 text-4xl font-bold mb-4">Practice Advice</h1>
       <h2 className="text-black text-3xl font-bold mb-4">Featured Posts</h2>
       <p className="text-gray-700 text-lg mb-4">
@@ -28,12 +20,7 @@ const FeaturedPostsSlide: React.FC = () => {
         {/* Card 1 */}
         <div className="relative bg-white shadow-lg overflow-hidden border border-gray-200">
           <div className="h-80 w-full relative">
-            <Image
-              src="/practise1.png"
-              alt="Post 1"
-              layout="fill"
-              objectFit="cover" // Ensures the image maintains its aspect ratio
-            />
+            <Image src="/practise1.png" alt="Post 1" fill style={{ objectFit: "cover" }} />
           </div>
           <div className="px-4 py-6">
             <div className="text-gray-800 text-sm mt-2">
@@ -41,9 +28,9 @@ const FeaturedPostsSlide: React.FC = () => {
             </div>
             <div className="text-center mt-6">
               <p className="text-gray-800 text-lg font-bold">Loudest à la Madison #1</p>
-              <p className="text-gray-600 text-sm">(L'Integral)</p>
+              <p className="text-gray-600 text-sm">(L&apos;Integral)</p>
               <p className="text-gray-600 text-sm mt-2">
-                We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+                We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.
               </p>
             </div>
             {/* Horizontal Line */}
@@ -68,12 +55,7 @@ const FeaturedPostsSlide: React.FC = () => {
         {/* Card 2 */}
         <div className="relative bg-white shadow-lg overflow-hidden border border-gray-200">
           <div className="h-80 w-full relative">
-            <Image
-              src="/practise2.png"
-              alt="Post 2"
-              layout="fill"
-              objectFit="cover" // Ensures the image maintains its aspect ratio
-            />
+            <Image src="/practise2.png" alt="Post 2" fill style={{ objectFit: "cover" }} />
           </div>
           <div className="px-4 py-6">
             <div className="text-gray-800 text-sm mt-2">
@@ -81,9 +63,9 @@ const FeaturedPostsSlide: React.FC = () => {
             </div>
             <div className="text-center mt-6">
               <p className="text-gray-800 text-lg font-bold">Loudest à la Madison #1</p>
-              <p className="text-gray-600 text-sm">(L'Integral)</p>
+              <p className="text-gray-600 text-sm">(L&apos;Integral)</p>
               <p className="text-gray-600 text-sm mt-2">
-                We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+                We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.
               </p>
             </div>
             {/* Horizontal Line */}
@@ -108,12 +90,7 @@ const FeaturedPostsSlide: React.FC = () => {
         {/* Card 3 */}
         <div className="relative bg-white shadow-lg overflow-hidden border border-gray-200">
           <div className="h-80 w-full relative">
-            <Image
-              src="/practise3.png"
-              alt="Post 3"
-              layout="fill"
-              objectFit="cover" // Ensures the image maintains its aspect ratio
-            />
+            <Image src="/practise3.png" alt="Post 3" fill style={{ objectFit: "cover" }} />
           </div>
           <div className="px-4 py-6">
             <div className="text-gray-800 text-sm mt-2">
@@ -121,9 +98,9 @@ const FeaturedPostsSlide: React.FC = () => {
             </div>
             <div className="text-center mt-6">
               <p className="text-gray-800 text-lg font-bold">Loudest à la Madison #1</p>
-              <p className="text-gray-600 text-sm">(L'Integral)</p>
+              <p className="text-gray-600 text-sm">(L&apos;Integral)</p>
               <p className="text-gray-600 text-sm mt-2">
-                We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+                We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.
               </p>
             </div>
             {/* Horizontal Line */}
@@ -145,8 +122,6 @@ const FeaturedPostsSlide: React.FC = () => {
           </div>
         </div>
       </div>
-
-     
     </section>
   );
 };
